@@ -1,0 +1,16 @@
+
+body{
+    
+    background-repeat: no-repeat;/*图片不重复*/
+    background-size: auto;
+    overflow: hidden;/*溢出隐藏*/
+    
+    background-size: 100% auto;
+
+}
+.mail_title{
+    color: aliceblue;
+}
+.mail_boby{
+    color: aliceblue;
+}
