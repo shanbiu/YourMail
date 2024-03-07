@@ -1,16 +1,31 @@
 
 body{
     
-    background-repeat: no-repeat;/*图片不重复*/
-    background-size: auto;
-    overflow: hidden;/*溢出隐藏*/
-    
-    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 60%; 
+    height: 90%;
+    margin: 50px;
 
 }
 .mail_title{
     color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 400px;
+    text-align: center;
+    font-size: 40px;
+    width: 1000px; 
+    height: 100px;
+    
+    
 }
 .mail_boby{
     color: aliceblue;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 20px;
+    overflow: auto;
+    width: 1000px; 
+    height: 700px;
+    padding-left: 10%;
 }
