@@ -11,12 +11,10 @@ body{
 .mail_title{
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 400px;
-    text-align: center;
     font-size: 40px;
     width: 1000px; 
     height: 100px;
-    
+    text-align: center;
     
 }
 .mail_boby{
@@ -28,4 +26,10 @@ body{
     width: 1000px; 
     height: 700px;
     padding-left: 10%;
+}
+.mail_boby.scrollbar-visible::-webkit-scrollbar{
+    display: none;
+}
+.mail_boby::-webkit-scrollbar{
+    display: none;
 }
